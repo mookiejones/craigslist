@@ -2385,171 +2385,2145 @@
     "codes": [
         {
             "name": "all",
-            "code": "sss"
+            "code": "sss",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "antiques",
-            "code": "ata"
+            "code": "ata",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "appliances",
-            "code": "ppa"
+            "code": "ppa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "arts+crafts",
-            "code": "ara"
+            "code": "ara",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "auto parts",
-            "code": "pta"
+            "code": "pta",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "baby+kids",
-            "code": "baa"
+            "code": "baa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "barter",
-            "code": "bar"
+            "code": "bar",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "beauty+hlth",
-            "code": "haa"
+            "code": "haa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "bike parts",
-            "code": "bip"
+            "code": "bip",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "bikes",
-            "code": "bia"
+            "code": "bia",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "boat parts",
-            "code": "bpa"
+            "code": "bpa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "boats",
-            "code": "boo"
+            "code": "boo",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "boats by owner",
-            "cose": "boa"
+            "cose": "boa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "books",
-            "code": "bka"
+            "code": "bka",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "business",
-            "code": "bfa"
+            "code": "bfa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "cars+trucks",
-            "code": "cta"
+            "code": "cta",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "cell phones",
-            "code": "moa"
+            "code": "moa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "clothes+acc",
-            "code": "cla"
+            "code": "cla",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "collectibles",
-            "code": "cba"
+            "code": "cba",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "computer parts",
-            "code": "syp"
+            "code": "syp",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "computers",
-            "code": "sya"
+            "code": "sya",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "electronics",
-            "code": "ela"
+            "code": "ela",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "farm+garden",
-            "code": "gra"
+            "code": "gra",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "free stuff",
-            "code": "zip"
+            "code": "zip",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "furniture",
-            "code": "fua"
+            "code": "fua",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "garage sales",
-            "code": "gms"
+            "code": "gms",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "general",
-            "code": "foa"
+            "code": "foa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "heavy equipment",
-            "code": "hva"
+            "code": "hva",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "household",
-            "code": "hsa"
+            "code": "hsa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "jewelry",
-            "code": "jwa"
+            "code": "jwa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "materials",
-            "code": "maa"
+            "code": "maa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "motorcycle parts",
-            "code": "mpa"
+            "code": "mpa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "motorcycles",
-            "code": "mca"
+            "code": "mca",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "music instr",
-            "code": "msa"
+            "code": "msa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "photo+video",
-            "code": "pha"
+            "code": "pha",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "RVs",
-            "code": "rva"
+            "code": "rva",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "sporting",
-            "code": "sga"
+            "code": "sga",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "tickets",
-            "code": "tia"
+            "code": "tia",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "tools",
-            "code": "tla"
+            "code": "tla",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "toys+games",
-            "code": "taa"
+            "code": "taa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "video gaming",
-            "code": "vga"
+            "code": "vga",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         },
         {
             "name": "wanted",
-            "code": "waa"
+            "code": "waa",
+            "options": [
+                {
+                    "label": "search titles only",
+                    "type": "checkbox","value":false,
+                    "name": "srchType"
+                },
+                {
+                    "label": "has image",
+                    "type": "checkbox","value":false,
+                    "name": "hasPic"
+                },
+                {
+                    "label": "posted today",
+                    "type": "checkbox","value":false,
+                    "name": "postedToday"
+                },
+                {
+                    "label": "bundle duplicates",
+                    "type": "checkbox","value":false,
+                    "name": "bundleDuplicates"
+                },
+                {
+                    "label": "include nearby areas",
+                    "type": "checkbox","value":false,
+                    "name": "searchNearby"
+                },
+                {
+                    "label": "distance",
+                    "type": "number","value":0,
+                    "name": "search_distance"
+                },
+                {
+                    "label": "zip",
+                    "type": "text","value":"",
+                    "name": "postal"
+                },
+                {
+                    "label": "min",
+                    "type": "tel","value":0,
+                    "name": "min_price"
+                },
+                {
+                    "label": "max",
+                    "type": "tel","value":0,
+                    "name": "max_price"
+                }
+            ]
         }
     ]
 }

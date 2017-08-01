@@ -53,9 +53,9 @@ craigslist.prototype.getDetails=function(postingUrl,markup){
 function getBody(markup){
 
 }
-
-function getInfo(url){
-    try{
+craigslist.prototype.getInfo=function(url){
+ try{
+     debugger;
         request(url,(err,response,body)=>{
             if(err)
                 console.warn(err)
@@ -66,6 +66,7 @@ function getInfo(url){
         console.error(e);
     }
 }
+ 
 
 
 // for(var city of config.cities){

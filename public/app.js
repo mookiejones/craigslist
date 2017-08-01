@@ -7,6 +7,7 @@ angular.module('clApp')
         $scope.results=[];
         $scope.locations=[];
         $scope.codes=[];
+       
         $scope.showLocations=false;
 
 
@@ -14,7 +15,33 @@ angular.module('clApp')
         function performSearch(city){
             debugger;
         }
+
+        $scope.changeValue=()=>{
+            var o=$scope.option;
+            debugger;
+            switch(event.target.type){
+                case 'checkbox':
+                this.opt.value=event.target.checked;break;
+                case 'number':
+              debugger;
+              break;
+                default:
+                debugger;
+                break;
+            }
+             
+        }
         $scope.doSearch=function(){
+            debugger;
+            var options="";
+          
+                          var options="";
+            for(var opt of $scope.selectedCode.options){
+                debugger;
+                options+=`${opt.name}=${opt.value}`
+            }
+
+            
             for(var location in $scope.locations){
                 for(var city in location.cities){
                     if(city.selected){
@@ -44,6 +71,7 @@ angular.module('clApp')
         $http.get('/codes')
             .then(res=>{
                 $scope.codes=res.data;
+                $scope.selectedCode=$scope.codes[0];
             })
             .catch(err=>{
                 alert(err)

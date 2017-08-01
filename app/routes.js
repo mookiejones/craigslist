@@ -8,6 +8,7 @@ module.exports=function(app){
 
     app.get('/search/:search',(req,res)=>{
         var s= req.params.search;
+        console.log(s);
     })
     app.get('/codes',(req,res)=>{
         var c = require('../config.json');
