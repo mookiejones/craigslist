@@ -32,6 +32,9 @@ angular.module('clApp')
              
         }
         $scope.doSearch=function(){
+
+            var type = selectedCode.cose;
+            
             debugger;
             var options="";
           
