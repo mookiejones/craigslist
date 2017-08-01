@@ -1,0 +1,26 @@
+{
+  "name": "t",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "mookiejones <charles.heath.berman@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "angular-bootstrap": "^2.5.0",
+    "angular-animate": "^1.6.5",
+    "angular-sanitize": "^1.6.5",
+    "font-awesome": "^4.7.0"
+  }
+}
