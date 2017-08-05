@@ -6,8 +6,14 @@ module.exports=function(app){
         res.send('index.html')
     })
 
-    app.get('/search',(req,res)=>{
-        debugger;
+    app.get('/find/:terms/:city/:code/:args',(req,res)=>{
+        cl.search(req.params)
+        .then(r=>{
+            res.json(r);
+        })
+        .catch(err=>{
+            debugger;
+        })
     })
  
     app.get('/codes',(req,res)=>{
@@ -20,7 +26,5 @@ module.exports=function(app){
         return res.json(c.locations);
     })
 
-    app.get('*',(req,res)=>{
-        debugger;
-    })
+  
 }

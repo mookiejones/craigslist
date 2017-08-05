@@ -5,12 +5,7 @@ var results=[];
 var request = require('request');
 var cheerio=require('cheerio');
 
-
-function craigslist(){
-
-}
-
-craigslist.prototype.getPostingDetails=function(postingUrl,markup){
+function getPostingDetails(postingUrl,markup){
 
 
     var c = cheerio.load(markup);
@@ -23,12 +18,27 @@ craigslist.prototype.getPostingDetails=function(postingUrl,markup){
     if(links.length>0)
         for(var i=0;i<links.length;i++){
             var link = links.get(i);
-            var href=link.attribs.href;
-            results.push(href);
-        }
+            var item={};
+            for(var child of link.children)
+                {
+                    if(child.type==='text')
+                        continue;
+                    if(child.tagName==='a'){
+                        item.image=child.attribs.href;
 
-        
+                    }
+console.log()
+            }
+            results.push(item);
+        }
+return results;
 }
+
+function craigslist(){
+
+}
+
+craigslist.prototype.getPostingDetails=getPostingDetails
 craigslist.prototype.getDetails=function(postingUrl,markup){
 
     console.log(`url:${postingUrl}`);
@@ -48,25 +58,52 @@ craigslist.prototype.getDetails=function(postingUrl,markup){
     if(details.description.length>1)
         debugger;
 }
-
-
-function getBody(markup){
-
-}
-craigslist.prototype.getInfo=function(url){
- try{
+function getInfo(url){
+    try{
      debugger;
         request(url,(err,response,body)=>{
             if(err)
                 console.warn(err)
             if(!err && response.statusCode==200)
-            getPostingDetails(url,body);
+           return  getPostingDetails(url,body);
         })
     }catch(e){
         console.error(e);
+        return e;
     }
 }
- 
+
+function getBody(markup){
+
+}
+craigslist.prototype.search=function(params){
+
+    var promise = new Promise((res,rej)=>{
+
+    var url=`https://${params.city}.craigslist.org/search/${params.code}?query=${params.terms}`;
+    if(params.args)
+        url+=params.args;
+
+ try{
+        request(url,(err,response,body)=>{
+            if(err)
+                console.warn(err)
+            if(!err && response.statusCode==200)
+           {
+               res(getPostingDetails(url,body));
+           } else{
+            res('hello');
+           }
+        })
+    }catch(e){
+        rej(e);
+        console.error(e);
+    }
+        });
+return promise;
+
+}
+craigslist.prototype.getInfo=getInfo;
 
 
 // for(var city of config.cities){

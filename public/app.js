@@ -32,7 +32,6 @@ function MainController($scope, $http, $cookies) {
   })
 
   function performSearch(city) {
-    debugger;
     var code = $scope.searchparams.code;
     var params=$scope.searchparams.search;
     var data={
@@ -44,7 +43,7 @@ function MainController($scope, $http, $cookies) {
     if(params!=null&&params.length>0)
         url+=params;
     $http
-      .get(url, data)
+      .get(`/find/${$scope.searchterms}/${data.city}/${$scope.searchparams.code}/${$scope.searchparams.search}`)
       .then(result => {
         debugger;
       })
