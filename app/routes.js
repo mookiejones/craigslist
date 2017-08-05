@@ -6,10 +6,10 @@ module.exports=function(app){
         res.send('index.html')
     })
 
-    app.get('/search/:search',(req,res)=>{
-        var s= req.params.search;
-        console.log(s);
+    app.get('/search',(req,res)=>{
+        debugger;
     })
+ 
     app.get('/codes',(req,res)=>{
         var c = require('../config.json');
         return res.json(c.codes);
@@ -18,5 +18,9 @@ module.exports=function(app){
 
         var c = require('../config.json');
         return res.json(c.locations);
+    })
+
+    app.get('*',(req,res)=>{
+        debugger;
     })
 }

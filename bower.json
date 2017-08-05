@@ -21,6 +21,7 @@
     "angular-bootstrap": "^2.5.0",
     "angular-animate": "^1.6.5",
     "angular-sanitize": "^1.6.5",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "angular-cookies": "^1.6.5"
   }
 }

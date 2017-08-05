@@ -2407,11 +2407,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2458,11 +2454,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2509,11 +2501,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2560,11 +2548,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2611,11 +2595,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2662,11 +2642,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2713,11 +2689,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2764,11 +2736,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2815,11 +2783,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2866,11 +2830,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2917,11 +2877,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2968,11 +2924,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -2997,7 +2949,7 @@
         },
         {
             "name": "boats by owner",
-            "cose": "boa",
+            "code": "boa",
             "options": [
                 {
                     "label": "search titles only",
@@ -3019,11 +2971,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3070,11 +3018,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3121,11 +3065,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3172,11 +3112,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3223,11 +3159,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3274,11 +3206,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3325,11 +3253,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3376,11 +3300,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3427,11 +3347,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3478,11 +3394,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3529,11 +3441,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3580,11 +3488,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3631,11 +3535,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3682,11 +3582,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3733,11 +3629,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3784,11 +3676,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3835,11 +3723,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3886,11 +3770,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3937,11 +3817,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -3988,11 +3864,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4039,11 +3911,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4090,11 +3958,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4141,11 +4005,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4192,11 +4052,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4243,11 +4099,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4294,11 +4146,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4345,11 +4193,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4396,11 +4240,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4447,11 +4287,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,
@@ -4498,11 +4334,7 @@
                     "type": "checkbox","value":false,
                     "name": "bundleDuplicates"
                 },
-                {
-                    "label": "include nearby areas",
-                    "type": "checkbox","value":false,
-                    "name": "searchNearby"
-                },
+                
                 {
                     "label": "distance",
                     "type": "number","value":0,

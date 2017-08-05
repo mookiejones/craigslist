@@ -1,0 +1,20 @@
+  <div class="col-md-3">
+        <div class="form-group">
+          <label for="category">Category: </label>
+          <select class="form-control" id="category" 
+          data-ng-options="code.name for code in codes" 
+          ng-change="changeCode()" 
+          ng-model="selectedCode"></select>
+        </div>
+        <div class="row">
+          <ul class='list-group'>
+            <li data-ng-repeat="opt in selectedCode.options track by $index" class='list-group-item' data-ng-model='selectedOption'>
+              <label>
+            
+             {{selectedCode.options[$index].label}}
+             <input type="{{selectedCode.options[$index].type}}" name="{{selectedCode.options[$index].name}}"  value="{{selectedCode.options[$index].value}}" ng-model="opt.value" ng-change="changeValue(opt)"/>
+           </label>
+            </li>
+          </ul>
+        </div>
+      </div>
