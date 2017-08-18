@@ -22,6 +22,7 @@
   <script type="text/javascript" src="libs/angular-animate/angular-animate.js"></script>
   <script type="text/javascript" src="libs/angular-sanitize/angular-sanitize.js"></script>
   <script type="text/javascript" src="libs/angular-cookies/angular-cookies.js"></script>
+  
   <script type="text/javascript" src="app.js"></script>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" type="text/css">
@@ -77,6 +78,24 @@
                 </span>
           <input type="text" class="form-control" placeholder="Search" ng-model="searchterms" ng-keyup="doSearch($event)">
         </div>
+        <ul class='list-group'>
+          <li ng-repeat="result in results" class='list-group-item'>
+            <a href="{{result.link}}">{{result.title}}</a>
+              {{result.time}}
+
+
+              <span ng-repeat='img in result.img track by $index' data-ng-mouseover="img.imgsrc=img.lgImg"  data-ng-mouseleave="img.imgsrc=img.smImg"  ng-init="img.imgsrc=img.smImg">
+              <img ng-src="{{img.imgsrc}}" alt="" />
+              </span>
+
+              <!-- <span ng-repeat='img in result.img track by $index' data-ng-mouseover="img.show=!img.show" data-ng-mouseleave="img.show=!img.show">
+                <img ng-src="{{img.lgImg}}" alt="" data-ng-show="img.show"/>
+                <img ng-src="{{img.smImg}}" alt="" data-ng-hide="img.show"/>
+              </span> -->
+              
+          </li>
+          </ul>
+
       </div>
       <option-panel></option-panel>
 

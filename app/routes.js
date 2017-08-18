@@ -7,12 +7,12 @@ module.exports=function(app){
     })
 
     app.get('/find/:terms/:city/:code/:args',(req,res)=>{
-        cl.search(req.params)
+        return cl.search(req.params)
         .then(r=>{
             res.json(r);
         })
         .catch(err=>{
-            debugger;
+            res.send(err);
         })
     })
  

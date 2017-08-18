@@ -4,16 +4,31 @@ angular
   .directive("optionPanel", OptionPanel)
   .controller("MainController", MainController);
 
-MainController.$inject = ["$scope", "$http", "$cookies"];
+MainController.$inject = ["$scope", "$http", "$cookies",'$sce'];
 OptionController.$inject = ["$scope", "$http", "$cookies"];
 
-function MainController($scope, $http, $cookies) {
+function MainController($scope, $http, $cookies,$sce) {
   $scope.url = "";
+  $scope.searchterms='';
   $scope.locations = [];
+  $scope.results=[];
   $scope.searchparams={
       code:'sss',
       search:''
   };
+
+  $scope.hoverOut=function(){
+
+  }
+  $scope.hoverImage=function(){
+
+  }
+
+  $scope.getLargeImage=function(){
+    debugger;
+    var result =  $sce.trustAsHtml(`<img src=\"https://images.craigslist.org/${this.img}_300x300.jpg"></img>`);
+    return result;
+  }
   $http
     .get("/cities")
     .then(res => {
@@ -34,6 +49,7 @@ function MainController($scope, $http, $cookies) {
   function performSearch(city) {
     var code = $scope.searchparams.code;
     var params=$scope.searchparams.search;
+    console.log($scope.searchparams);
     var data={
         city:'detroit',
         code:code,
@@ -45,7 +61,8 @@ function MainController($scope, $http, $cookies) {
     $http
       .get(`/find/${$scope.searchterms}/${data.city}/${$scope.searchparams.code}/${$scope.searchparams.search}`)
       .then(result => {
-        debugger;
+        for(var r of result.data)
+          $scope.results.push(r);
       })
       .catch(err => {
         debugger;
@@ -53,7 +70,9 @@ function MainController($scope, $http, $cookies) {
   }
 
   $scope.doSearch = function() {
+
     if (event.key != "Enter") return;
+    $scope.results=[];
     var type = $scope.selectedCode.code;
 
     var options = "";
@@ -67,14 +86,7 @@ function MainController($scope, $http, $cookies) {
         }
       }
     }
-    $http
-      .get("/search/" + $scope.searchterms)
-      .then(res => {
-        debugger;
-      })
-      .catch(err => {
-        debugger;
-      });
+  
   };
 }
 
